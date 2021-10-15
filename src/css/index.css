@@ -49,6 +49,8 @@ body {
 
 .links {
     word-spacing: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #profile {
