@@ -22,7 +22,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Blaire Grant</a>
+      <a class="navbar-brand" href="#about">Blaire Grant</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -36,7 +36,7 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<div id="about" class="container-fluid bg-1 text-center">
   <h3 class="margin">Full Stack Software Engineer</h3>
   <img src="assets/images/profile-pic.png" id="profile" class="img-responsive img-circle margin" style="display:inline" alt="Profile Picture" width="350" height="350">
   <p class="center">I’m a Registered Nurse by trade but have always had an interest in tech and said 
@@ -54,13 +54,13 @@
 </div>
 
 <!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
+<div id="skills" class="container-fluid bg-2 text-center">
   <h3 class="margin">Skills</h3>
   <p class="center">Ruby | Rails | Vanilla JavaScript (ES6) | ReactJS | Redux | Thunk | Sinatra | Active Record | Java | HTML | CSS | SQLite | PostgreSQL | RESTful API | Kimurai | Nokogiri | Git | GitHub | jGRASP | Visual Studio | MVC pattern | Object-Oriented Programming</p>
 </div>
 
 <!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
+<div id="projects" class="container-fluid bg-3 text-center">    
   <h3 class="margin">Projects</h3><br>
   <div class="row">
 
@@ -91,7 +91,7 @@
 </div>
 
 <!-- Fourth Container -->
-<div class="container-fluid bg-4 text-center">
+<div id="contact" class="container-fluid bg-4 text-center">
     <h3 class="margin">Contact Info</h3>
     <span class="links">
         <a href="https://www.linkedin.com/in/blaire-grant/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -117,9 +117,11 @@
   </div>
 
 <!-- Footer -->
+<a href="#" id="back-to-top" class="back-to-top" style="display: inline;">Top</a>
+
 <footer class="container-fluid bg-5 text-center">
   <p>© 2021 Portfolio made with &#9829 by Blaire Grant</a></p> 
 </footer>
-
+<script src="src/js/index.js"></script>
 </body>
 </html>

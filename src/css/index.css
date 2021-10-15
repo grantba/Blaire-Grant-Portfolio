@@ -38,6 +38,7 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
   }
+
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
@@ -75,3 +76,41 @@ iframe {
 .row a:link {
     text-decoration: none;
 }
+
+.back-to-top {
+    background-color: gray;
+    color: #FFFFFF;
+    border: white solid;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+    z-index: 999;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-decoration: none; 
+  }
+
+  a.back-to-top {
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 14px;
+    text-decoration: none; 
+  }
+
+  .back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
+    color: #FFFFFF;
+    text-decoration: none; 
+  }
+
+  .back-to-top.show {
+    opacity: 1;
+  }
