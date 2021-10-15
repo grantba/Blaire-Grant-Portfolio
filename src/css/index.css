@@ -43,12 +43,14 @@ body {
     color: #1abc9c !important;
   }
   .center {
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 20%;
+      margin-right: 20%;
   }
 
 .links {
     word-spacing: 35px;
+    text-align: center;
+    margin: auto;
 }
 
 #profile {
