@@ -53,9 +53,7 @@ body {
 }
 
 svg {
-        text-align: center;
-        margin: auto;
-        padding: auto;
+    display: inline-block;
 }
 
 #profile {
