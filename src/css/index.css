@@ -49,3 +49,29 @@ body {
 .links {
     word-spacing: 35px;
 }
+
+#profile {
+    border: white solid
+}
+
+iframe {
+    border: #2f2f2f solid;
+}
+
+.row a:visited {
+    text-decoration: none;
+    color: #555555; 
+}
+
+.row a:hover {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.row a { 
+    text-decoration: none; 
+}
+
+.row a:link {
+    text-decoration: none;
+}
