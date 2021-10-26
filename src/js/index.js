@@ -40,6 +40,5 @@ link.addEventListener('click', function(e) {
             clearInterval(runAnimation);
         }
     };
-    // Loop the animation function
     var runAnimation = setInterval(animateScroll, 16);
 });
